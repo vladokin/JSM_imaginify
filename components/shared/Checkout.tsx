@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect } from "react";
 import { loadScript } from "@paypal/paypal-js";
 import { useToast } from "@/components/ui/use-toast";
